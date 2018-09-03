@@ -1,2 +1,2 @@
 # spoj
-Some c++ for SPOJ problems
+C++ solutions for some problems from spoj.com.
