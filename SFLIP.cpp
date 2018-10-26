@@ -16,6 +16,11 @@ const ll LLINF = 2e18 + 5;
     SPOJ
     Task : SFLIP
     Solution based on greedy + mss segment tree
+    We store both minimum and maximum subarray sum in a segment tree
+    and use this information to greedily pick the best possible intervals.
+    Picking an interval causes it to flip (that's done with lazy propagation).
+    We can prove that flipping k overlapping intervals can always
+    be reduce to flipping k disjoint intervals.
 */
 
 template <typename T>

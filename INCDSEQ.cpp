@@ -14,8 +14,10 @@ const int INF = 2e9+5;
     filippos
     SPOJ
     Task : INCDSEQ
-    Variant of INCSEQ, which makes
-	the problem quite more interesting
+    Variant of INCSEQ, which makes the problem quite more interesting.
+    Instead of counting all of sequences when building dp solutions,
+    we only count the new ones; this way we can guarantee that only
+    distinct sequences will be counted. 
 */
 
 constexpr int lsb(int n){

@@ -14,8 +14,8 @@ const int INF = 2e9+5;
     filippos
     SPOJ
     Task : INCSEQ
-    I think that this task is an interesting one:
-    count # of increasing subsequences of length K, with K <= 50
+	Solved using DP + fenwick tree, modifying standard fenwick tree approach
+	for LIS by using solutions with length L to compute solutions of length L + 1
 */
 
 constexpr int lsb(int n){
