@@ -14,6 +14,13 @@ using vvi = vector<vi>;
 const int INF = 2e9 + 5; // il maggico
 using ll = long long;
 
+/*
+	Dinic's algorithm with scaling
+	Asymptotically better than standard Dinic,
+	but potentially slower sometimes, such as in
+	FASFTLOW, although it still gets AC.
+*/
+
 
 // We represent the graph as an adiacency list of edge list indexes
 
